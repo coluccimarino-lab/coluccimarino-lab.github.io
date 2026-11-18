@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<krpano Version="5" title="IIS De Pace" Template="No" version="1.20.10">  <include url="skin/vtourskin.xml"></include>
+  <skin_settings thumbs_crop="0|40|240|160" webvr_prev_next_hotspots="true" controlbar_offset="20" controlbar_offset_closed="-40" thumbs="true" thumbs_opened="true" thumbs_onhoverscrolling="false" loadscene_flags="MERGE" maps_google_api_key="" title="true" design_text_css="color:#FFFFFF; font-family:Arial;" tooltips_thumbs="false" thumbs_scrollbuttons="false" maps_type="google" tooltips_hotspots="false" loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)" thumbs_padding="10" loadingtext="Loading Tour" controlbar_overlap.no-fractionalscaling="10" controlbar_height="40" thumbs_width="70" webvr="false" thumbs_height="50" maps_zoombuttons="false" layout_width="100%" littleplanetintro="false" design_bgborder="0" gyro="true" followmousecontrol="false" thumbs_dragging="true" tooltips_buttons="false" loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)" layout_maxwidth="550" design_text_shadow="1" loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)" design_bgroundedge="1" design_bgshadow="0 4 10 0x000000 0.3" gyro_keeplookingdirection="false" controlbar_overlap.fractionalscaling="0" design_thumbborder_padding="2" deeplinking="false" tooltips_mapspots="false" maps_bing_api_key="" design_bgcolor="0x2D3E50" webvr_keeplookingdirection="true" design_thumbborder_bgroundedge="0" design_thumbborder_bgborder="3 0xFFFFFF 1.0" autotour="true" thumbs_scrollindicator="false" thumbs_loop="false" design_bgalpha="0.8" thumbs_text="false" maps_loadonfirstuse="true" maps="false" design_skin_images="vtourskin.png" controlbar_width="-24"></skin_settings>
+  <scene onstart="" thumburl="panos/Moda_01a.tiles/thumb.jpg" title="Produzioni Tessili Sartoriali" lat="" lng="" name="scene_Moda_01a" heading="">
+    <control bouncinglimits="true"></control>
+    <view vlookat="-0.105" hlookatmin="-180.0" hlookat="0.302" fovmax="120.0" vlookatmax="90.0" limitview="auto" maxpixelzoom="1.0" fov="120.0" fovmin="66.073527" fovtype="MFOV" hlookatmax="180.0" vlookatmin="-90.0"></view>
+    <preview url="panos/Moda_01a.tiles/preview.jpg"></preview>
+    <image prealign="null">
+      <cube url="panos/Moda_01a.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664,3200"></cube>
+    </image>
+    <hotspot style="skin_hotspotstyle" ath="-112.874" name="spot1" atv="8.496" linkedscene="scene_moda_02a"></hotspot>
+  </scene>
+  <scene onstart="" thumburl="panos/Moda_02a.tiles/thumb.jpg" title="Produzioni Tessili Sartoriali" lat="" lng="" name="scene_Moda_02a" heading="">
+    <control bouncinglimits="true"></control>
+    <view vlookat="0.000" hlookatmin="-180.0" hlookat="-1.430" fovmax="120.0" vlookatmax="90.0" limitview="auto" maxpixelzoom="1.0" fov="120.0" fovmin="66.073527" fovtype="MFOV" hlookatmax="180.0" vlookatmin="-90.0"></view>
+    <preview url="panos/Moda_02a.tiles/preview.jpg"></preview>
+    <image prealign="null">
+      <cube url="panos/Moda_02a.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664,3200"></cube>
+    </image>
+    <hotspot style="skin_hotspotstyle" ath="-61.795" name="spot1" atv="5.497" linkedscene="scene_moda_03c"></hotspot>
+  </scene>
+  <scene onstart="" thumburl="panos/Moda_03c.tiles/thumb.jpg" title="Produzioni Tessili Sartoriali" lat="" lng="" name="scene_Moda_03c" heading="">
+    <control bouncinglimits="true"></control>
+    <view vlookat="-0.105" hlookatmin="-180.0" hlookat="0.489" fovmax="120.0" vlookatmax="90.0" limitview="auto" maxpixelzoom="1.0" fov="120.0" fovmin="66.073527" fovtype="MFOV" hlookatmax="180.0" vlookatmin="-90.0"></view>
+    <preview url="panos/Moda_03c.tiles/preview.jpg"></preview>
+    <image prealign="null">
+      <cube url="panos/Moda_03c.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1664,3200"></cube>
+    </image>
+    <hotspot style="skin_hotspotstyle" ath="49.964" name="spot1" atv="0.747" linkedscene="scene_moda_01a"></hotspot>
+  </scene>
+  <HeaderAndFooter HeaderFirstPage="No" FooterVisible="No" FooterFirstPage="Yes" StartingPage="1" HeaderVisible="Yes">
+    <Header>
+      <Paragraph Alignment="Right" Leading="Regular" FirstIndent="0.00" StartsNewPage="No" RightIndent="-1.25" LeftIndent="1.25" SpaceBefore="0" Spacing="1">
+        <Text AdornmentStyle="0" Size="12" Color="#000000000000" Style="" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"> </Text>
+      </Paragraph>
+    </Header>
+    <Footer>
+      <Paragraph Alignment="Right" Leading="Regular" FirstIndent="0.00" StartsNewPage="No" RightIndent="-1.25" LeftIndent="1.25" SpaceBefore="0" Spacing="1">
+        <Text AdornmentStyle="0" Size="12" Color="#000000000000" Style="" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"> </Text>
+      </Paragraph>
+    </Footer>
+  </HeaderAndFooter>
+  <Revisions ActiveSet="1" ShowPageColor="No" RevisionsShown="Active" ShowAllMarks="Yes" Location="7.75" ShowAllSets="Yes" RevisionMode="No">
+    <Revision PageColor="#DD6B08C206A2" Mark="*" Color="#DD6B08C206A2" Style="" Name="First Revision" ID="1" FullRevision="No"></Revision>
+    <Revision PageColor="#00000000D400" Mark="*" Color="#00000000D400" Style="" Name="Second Revision" ID="2" FullRevision="No"></Revision>
+    <Revision PageColor="#000064AF11B0" Mark="*" Color="#000064AF11B0" Style="" Name="Third Revision" ID="3" FullRevision="No"></Revision>
+    <Revision PageColor="#FC00F370052F" Mark="*" Color="#FC00F370052F" Style="" Name="Fourth Revision" ID="4" FullRevision="No"></Revision>
+  </Revisions>
+  <SceneNumberOptions ShowNumbersOnRight="YES" ShowNumbersOnLeft="YES" RightLocation="7.38" LeftLocation="0.75">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+  </SceneNumberOptions>
+  <SmartType>
+    <Characters></Characters>
+    <Extensions></Extensions>
+    <SceneIntros></SceneIntros>
+    <Locations></Locations>
+    <TimesOfDay></TimesOfDay>
+    <Transitions></Transitions>
+  </SmartType>
+  <SpellCheckIgnoreLists>
+    <IgnoredWords></IgnoredWords>
+    <IgnoredRanges></IgnoredRanges>
+  </SpellCheckIgnoreLists>
+  <TextState Scaling="0" ShowInvisibles="No" Selection="0,0"></TextState>
+  <CastList SortOption="Alphabetical">
+    <CustomOrder></CustomOrder>
+  </CastList>
+  <TitlePage>
+    <Content>
+      <Paragraph Alignment="Left" Leading="Regular" FirstIndent="0.00" StartsNewPage="No" RightIndent="7.50" LeftIndent="1.00" SpaceBefore="0" Spacing="1">
+        <Text></Text>
+      </Paragraph>
+    </Content>
+    <HeaderAndFooter>
+      <Header></Header>
+      <Footer></Footer>
+    </HeaderAndFooter>
+  </TitlePage>
+  <PageLayout BottomMargin="72" TopMargin="72" ForegroundColor="#000000000000" HeaderMargin="36" UsesSmartQuotes="Yes" FooterMargin="36" InvisiblesColor="#808080808080" DocumentLeading="Regular" BackgroundColor="#FFFFFFFFFFFF" BreakDialogueAndActionAtSentences="Yes">
+    <PageSize Height="11.000000" Width="8.500000"></PageSize>
+  </PageLayout>
+  <ElementSettings Type="Action">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.50" LeftIndent="1.50" SpaceBefore="12" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Action" PaginateAs="Action" Shortcut="4342060040"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Cast List">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="AllCaps" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.50" LeftIndent="1.50" SpaceBefore="0" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Action" PaginateAs="Action" Shortcut="4342062472"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Character">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="AllCaps" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.25" LeftIndent="3.50" SpaceBefore="12" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Dialogue" PaginateAs="Character" Shortcut="4342060072"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Dialogue">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="6.00" LeftIndent="2.50" SpaceBefore="0" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Action" PaginateAs="Dialogue" Shortcut="4342062376"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="General">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.50" LeftIndent="1.50" SpaceBefore="0" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="General" PaginateAs="General" Shortcut="4342058568"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Parenthetical">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="5.50" LeftIndent="3.00" SpaceBefore="0" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Dialogue" PaginateAs="Parenthetical" Shortcut="4342062344"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Scene Heading">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="AllCaps" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.50" LeftIndent="1.50" SpaceBefore="12" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Action" PaginateAs="Scene Heading" Shortcut="4342058600"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Shot">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="AllCaps" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.50" LeftIndent="1.50" SpaceBefore="24" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Action" PaginateAs="Scene Heading" Shortcut="4342062440"></Behavior>
+  </ElementSettings>
+  <ElementSettings Type="Transition">
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="AllCaps" TagNumber="0" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <ParagraphSpec StartsNewPage="No" Spacing="1" Alignment="Left" FirstIndent="0.00" RightIndent="7.12" LeftIndent="5.50" SpaceBefore="12" Leading="Regular"></ParagraphSpec>
+    <Behavior ReturnKey="Scene Heading" PaginateAs="Transition" Shortcut="4342062408"></Behavior>
+  </ElementSettings>
+  <MoresAndContinueds>
+    <FontSpec AdornmentStyle="0" Size="12" Color="#000000000000" Style="" Font="Courier Final Draft" RevisionID="0" Background="#FFFFFFFFFFFF"></FontSpec>
+    <DialogueBreaks AutomaticCharacterContinueds="Yes" TopOfNext="Yes" BottomOfPage="Yes" DialogueBottom="(MORE)" DialogueTop="(CONT'D)"></DialogueBreaks>
+    <SceneBreaks SceneBottomOfPage="No" SceneTop="CONTINUED:" ContinuedNumber="No" SceneBottom="(CONTINUED)" SceneTopOfNext="No"></SceneBreaks>
+  </MoresAndContinueds>
+  <LockedPages></LockedPages>
+  <CharacterHighlighting></CharacterHighlighting>
+  <DeletedText></DeletedText>
+  <ScriptNotes></ScriptNotes>
+  <ListItems></ListItems>
+  <Outline Paragraphs="Show" StructureLines="Show"></Outline>
+</krpano>
