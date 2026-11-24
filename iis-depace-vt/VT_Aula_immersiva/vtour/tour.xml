@@ -1,4 +1,4 @@
-﻿<krpano version="1.20.11" title="Virtual Tour">
+﻿<krpano version="1.20.11" title="IIS De Pace">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -14,13 +14,13 @@
 	               webvr="true"
 	               webvr_keeplookingdirection="true"
 	               webvr_prev_next_hotspots="true"
-	               autotour="false"
+	               autotour="true"
 	               littleplanetintro="false"
 	               followmousecontrol="false"
 	               title="true"
 	               thumbs="true"
-	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
-	               thumbs_opened="false"
+	               thumbs_width="70" thumbs_height="50" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="true"
 	               thumbs_text="false"
 	               thumbs_dragging="true"
 	               thumbs_onhoverscrolling="false"
@@ -36,9 +36,9 @@
 	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
 	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
 	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
-	               loadingtext=""
+	               loadingtext="Loading Tour"
 	               layout_width="100%"
-	               layout_maxwidth="814"
+	               layout_maxwidth="550"
 	               controlbar_width="-24"
 	               controlbar_height="40"
 	               controlbar_offset="20"
@@ -71,30 +71,30 @@
 
 
 	
-	<scene name="scene_DP26_Aula_Immersima_VT01" title="Aula_Immersiva" onstart="" thumburl="panos/DP26_Aula_Immersima_VT01.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_DP26_Aula_Immersima_VT01" title="Aula Immersiva" onstart="" thumburl="panos/DP26_Aula_Immersima_VT01.tiles/thumb.jpg" lat="" lng="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="0.177" vlookat="0.196" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.177" vlookat="0.196" fovtype="MFOV" fov="120.000" maxpixelzoom="1.0" fovmin="96.195271" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/DP26_Aula_Immersima_VT01.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/DP26_Aula_Immersima_VT01.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="7.447" atv="28.734" linkedscene="scene_dp26_aula_immersiva_vt02" />
 
 	</scene>
 
-	<scene name="scene_DP26_Aula_Immersiva_VT02" title="Aula_Immersiva" onstart="" thumburl="panos/DP26_Aula_Immersiva_VT02.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_DP26_Aula_Immersiva_VT02" title="Aula Immersiva" onstart="" thumburl="panos/DP26_Aula_Immersiva_VT02.tiles/thumb.jpg" lat="" lng="" heading="">
 		
-		<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="true" />
 
-		<view hlookat="9.900" vlookat="0.208" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="9.900" vlookat="0.208" fovtype="MFOV" fov="120.000" maxpixelzoom="1.0" fovmin="96.195271" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/DP26_Aula_Immersiva_VT02.tiles/preview.jpg" />
 
-		<image>
+		<image prealign="null">
 			<cube url="panos/DP26_Aula_Immersiva_VT02.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="169.613" atv="31.916" linkedscene="scene_dp26_aula_immersima_vt01" />
