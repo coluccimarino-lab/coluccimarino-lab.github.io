@@ -11,10 +11,11 @@
 	         onclick="vr_go_home();"
 	         visible="false" devices="html5.and.webgl" />
 
-	<action name="vr_go_home" scope="local">
-		if(webvr.isenabled, webvr.exitVR(); );
-		delayedcall(0.5, openurl('../../index.html', _self); );
-	</action>
+	<action name="vr_go_home" type="Javascript"><![CDATA[
+		var url = new URL("../../index.html", window.location.href).href;
+		try { krpano.call("if(webvr.isenabled, webvr.exitVR(); );"); } catch (e) {}
+		window.location.href = url;
+	]]></action>
 
 	<events name="vr_home_events" keep="true" devices="html5" onviewchange="vr_home_follow();" />
 
