@@ -4,7 +4,7 @@
 		Compare tra le frecce scena precedente/successiva del menu VR della skin,
 		le segue nei movimenti ed esce dal tour tornando alla pagina con l'elenco.
 	-->
-	<hotspot name="vr_home" keep="true" url="calc:vtourskinxmlpath.url + 'vr_home.png'"
+	<hotspot name="vr_home" keep="true" url="vr_home.png"
 	         style="skin_webvr_menu_style" ox="0"
 	         onover="tween(scale,0.750);" onout="tween(scale,0.625);"
 	         vr_timeout="2000"
