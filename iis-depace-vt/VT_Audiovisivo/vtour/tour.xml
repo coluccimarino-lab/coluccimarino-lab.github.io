@@ -1,6 +1,7 @@
 ﻿<krpano version="1.20.10" title="IIS De Pace">
 
 	<include url="skin/vtourskin.xml" />
+	<include url="skin/vr_home.xml" />
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"

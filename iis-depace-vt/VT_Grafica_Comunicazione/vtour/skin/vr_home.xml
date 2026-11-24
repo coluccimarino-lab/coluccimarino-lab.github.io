@@ -1,0 +1,29 @@
+<krpano>
+	<!--
+		Pulsante "Home" per la modalità VR (visore).
+		Compare tra le frecce scena precedente/successiva del menu VR della skin,
+		le segue nei movimenti ed esce dal tour tornando alla pagina con l'elenco.
+	-->
+	<hotspot name="vr_home" keep="true" url="%CURRENTXML%/vr_home.png"
+	         style="skin_webvr_menu_style" ox="0"
+	         onover="tween(scale,0.750);" onout="tween(scale,0.625);"
+	         vr_timeout="2000"
+	         onclick="vr_go_home();"
+	         visible="false" devices="html5.and.webgl" />
+
+	<action name="vr_go_home" scope="local">
+		if(webvr.isenabled, webvr.exitVR(); );
+		delayedcall(0.5, openurl('../../index.html', _self); );
+	</action>
+
+	<events name="vr_home_events" keep="true" devices="html5" onviewchange="vr_home_follow();" />
+
+	<action name="vr_home_follow" scope="local">
+		copy(hotspot[vr_home].visible, hotspot[skin_webvr_prev_scene].visible);
+		if(hotspot[vr_home].visible,
+			copy(hotspot[vr_home].ath,   hotspot[skin_webvr_prev_scene].ath);
+			copy(hotspot[vr_home].atv,   hotspot[skin_webvr_prev_scene].atv);
+			copy(hotspot[vr_home].alpha, hotspot[skin_webvr_prev_scene].alpha);
+		);
+	</action>
+</krpano>
