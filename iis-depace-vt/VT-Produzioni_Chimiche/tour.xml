@@ -11,7 +11,7 @@
 	               maps_loadonfirstuse="true"
 	               gyro="true"
 	               gyro_keeplookingdirection="false"
-	               webvr="false"
+	               webvr="true"
 	               webvr_keeplookingdirection="true"
 	               webvr_prev_next_hotspots="true"
 	               autotour="true"
