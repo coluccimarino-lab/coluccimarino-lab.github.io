@@ -78,6 +78,7 @@
       pointer-events: none;
     }
     .hero .container { position: relative; z-index: 1; }
+    .hero .logo { display: block; height: auto; width: min(360px, 80%); margin: 0 0 28px; }
     .eyebrow {
       display: inline-flex; align-items: center; gap: 10px;
       font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase;
@@ -181,6 +182,7 @@
 <body>
   <header class="hero">
     <div class="container">
+      <img class="logo" src="logo/Logo%20IIS%20De%20Pace_03.png" alt="Istituto Tecnico e Professionale Antonietta De Pace – Lecce" width="3406" height="860" />
       <p class="eyebrow">IIS De Pace · Lecce</p>
       <h1>Virtual Tour dell'Istituto</h1>
       <p class="lead">
@@ -205,7 +207,7 @@
 
         <!-- =====================================================================
              COME AGGIUNGERE UN NUOVO TOUR
-             1. Copia la cartella esportata da krpano in virtual-tours/VT-Nome_tour/
+             1. Copia la cartella esportata da krpano in iis-depace-vt/VT-Nome_tour/
              2. Metti un'immagine di copertina (1200x600 consigliata) in covers/VT-Nome_tour.jpg
              3. Duplica il blocco <a class="tour"> qui sotto e aggiorna href, immagine, titolo e testo
              ===================================================================== -->
@@ -225,6 +227,102 @@
               <span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-6 9 6v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
                 5 ambienti
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/></svg>
+                Panorami 360°
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="tour" href="VT-Produzioni_Tessili_Sartoriali/tour.html">
+          <div class="tour-cover">
+            <img src="covers/VT-Produzioni_Tessili_Sartoriali.jpg" alt="Laboratorio di moda con abiti su manichini e macchine da cucire" loading="lazy" width="1200" height="600" />
+            <span class="badge">360°</span>
+            <span class="play" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </div>
+          <div class="tour-body">
+            <h3>Produzioni Tessili Sartoriali</h3>
+            <p>Il laboratorio di moda e sartoria, tra macchine da cucire e creazioni degli studenti.</p>
+            <div class="tour-meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-6 9 6v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                3 ambienti
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/></svg>
+                Panorami 360°
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="tour" href="VT_Grafica_Comunicazione/vtour/tour.html">
+          <div class="tour-cover">
+            <img src="covers/VT_Grafica_Comunicazione.jpg" alt="Laboratorio di grafica con postazioni computer e stampante 3D" loading="lazy" width="1200" height="600" />
+            <span class="badge">360°</span>
+            <span class="play" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </div>
+          <div class="tour-body">
+            <h3>Grafica e Comunicazione</h3>
+            <p>Il laboratorio di grafica, con postazioni Mac, stampa 3D e fotografia.</p>
+            <div class="tour-meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-6 9 6v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                2 ambienti
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/></svg>
+                Panorami 360°
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="tour" href="VT_Audiovisivo/vtour/tour.html">
+          <div class="tour-cover">
+            <img src="covers/VT_Audiovisivo.jpg" alt="Laboratorio audiovisivo con mixer, postazioni di montaggio e videocamera" loading="lazy" width="1200" height="600" />
+            <span class="badge">360°</span>
+            <span class="play" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </div>
+          <div class="tour-body">
+            <h3>Produzioni Audiovisive</h3>
+            <p>Il laboratorio audiovisivo, con postazioni di montaggio, regia audio e ripresa video.</p>
+            <div class="tour-meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-6 9 6v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                2 ambienti
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/></svg>
+                Panorami 360°
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <a class="tour" href="VT_Aula_immersiva/vtour/tour.html">
+          <div class="tour-cover">
+            <img src="covers/VT_Aula_immersiva.jpg" alt="Aula immersiva con tre grandi monitor interattivi e banchi a isola" loading="lazy" width="1200" height="600" />
+            <span class="badge">360°</span>
+            <span class="play" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+          </div>
+          <div class="tour-body">
+            <h3>Aula Immersiva</h3>
+            <p>Lo spazio didattico immersivo, con monitor interattivi e postazioni per il lavoro di gruppo.</p>
+            <div class="tour-meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-6 9 6v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                2 ambienti
               </span>
               <span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/></svg>
